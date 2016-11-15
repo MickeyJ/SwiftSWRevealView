@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -45,7 +44,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wfs-vx-qsq">
-                                <rect key="frame" x="116" y="314" width="143" height="40"/>
+                                <rect key="frame" x="100" y="314" width="175" height="40"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Qvw-vB-TzS"/>
@@ -58,9 +57,9 @@
                         </subviews>
                         <color key="backgroundColor" red="0.80491243413654501" green="0.88761800703492477" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Wfs-vx-qsq" firstAttribute="leading" secondItem="wRH-je-kFn" secondAttribute="leadingMargin" constant="100" id="TJk-cY-5hX"/>
+                            <constraint firstItem="Wfs-vx-qsq" firstAttribute="leading" secondItem="wRH-je-kFn" secondAttribute="leading" constant="100" id="1Ze-BE-Ffk"/>
+                            <constraint firstAttribute="trailing" secondItem="Wfs-vx-qsq" secondAttribute="trailing" constant="100" id="Uc5-mk-i8V"/>
                             <constraint firstItem="Wfs-vx-qsq" firstAttribute="centerY" secondItem="wRH-je-kFn" secondAttribute="centerY" id="ahJ-qm-AwZ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Wfs-vx-qsq" secondAttribute="trailing" constant="100" id="kPj-Vz-krX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="lVq-gb-b76">
@@ -73,7 +72,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X7o-SC-5Kf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2490" y="-743"/>
+            <point key="canvasLocation" x="2054" y="-738"/>
         </scene>
         <!--Next View-->
         <scene sceneID="XI0-zR-Pmo">
@@ -116,7 +115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="veg-k2-1fq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3345" y="-743"/>
+            <point key="canvasLocation" x="2910" y="-738"/>
         </scene>
         <!--Next Next View-->
         <scene sceneID="Xd7-VI-PFe">
@@ -141,7 +140,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YlD-ia-Qk0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4150" y="-743"/>
+            <point key="canvasLocation" x="3714" y="-738"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="dzY-kF-Ma8">
@@ -165,7 +164,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QWB-Jn-IwJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2524" y="48"/>
+            <point key="canvasLocation" x="2089" y="53"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="L5d-Jt-h1y">
@@ -259,7 +258,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MsU-GN-IyT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1626" y="-743"/>
+            <point key="canvasLocation" x="1190" y="-738"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="VQ3-JN-UwW">
@@ -277,7 +276,7 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="1615" y="48"/>
+            <point key="canvasLocation" x="1178" y="53"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
